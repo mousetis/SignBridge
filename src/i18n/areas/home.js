@@ -1,0 +1,26 @@
+export default {
+  vi: {
+    'home.hello': 'Xin chào, {name}', 'home.title': 'Cầu nối giữa ngôn ngữ ký hiệu và lời nói', 'home.lead': 'Dùng camera để dịch ký hiệu tay thành chữ và giọng nói, hiển thị chữ thành bàn tay 3D, trò chuyện hai chiều và học ký hiệu mỗi ngày — chạy ngay trên trình duyệt, hình ảnh không rời khỏi máy bạn.',
+    'home.ctaRecognize': 'Dịch ký hiệu ngay', 'home.ctaConverse': 'Trò chuyện hai người', 'home.today': 'Hôm nay', 'home.due': '{n} cần ôn', 'home.dueNone': 'Không có gì cần ôn',
+    'home.d.recognize': 'Camera nhận ký hiệu, ghép thành chữ, từ và câu, rồi đọc thành tiếng.', 'home.d.text': 'Gõ câu, bàn tay 3D ký lần lượt từng từ hoặc từng chữ; xuất video hoặc GIF.', 'home.d.converse': 'Hai người cùng một màn hình: một bên ký, một bên gõ hoặc nói.', 'home.d.captions': 'Phụ đề lớn, dễ đọc, theo thời gian thực cho cuộc họp hay bài giảng.',
+    'home.d.learn': 'Lộ trình, ôn tập ngắt quãng, kiểm tra, trò chơi và huy hiệu.', 'home.d.dict': 'Tra cứu ký hiệu với bàn tay 3D xoay 360°.', 'home.d.train': 'Dạy máy nhận ra bàn tay của riêng bạn, chính xác hơn.',
+    'home.tipTitle': 'Mẹo', 'home.tip': 'Đặt camera ngang tầm ngực, đủ sáng, nền đơn giản. Mô hình nhận chữ cái bảng ngón tay ASL; từ và cụm từ do bạn tự ghi mẫu trong mục Ký hiệu → Chữ.', 'home.new': 'Lần đầu dùng?',
+    'welcome.progress': 'Bước {i} / {n}', 'welcome.finish': 'Bắt đầu dùng',
+    'welcome.intro.title': 'Chào mừng đến SignBridge', 'welcome.intro.text': 'Ứng dụng giúp người khiếm thính và người nghe giao tiếp với nhau bằng camera và bàn tay 3D. Mọi xử lý chạy trên máy của bạn. Chọn ngôn ngữ giao diện trước nhé.',
+    'welcome.look.title': 'Chọn giao diện dễ nhìn nhất với bạn', 'welcome.look.text': 'Có thể đổi bất cứ lúc nào bằng nút ở góc trên hoặc trong Cài đặt. Chế độ tương phản cao có viền dày, màu chắc.',
+    'welcome.camera.title': 'Chuẩn bị camera', 'welcome.camera.light': 'Ngồi nơi đủ sáng, ánh sáng chiếu vào tay chứ không phải sau lưng.', 'welcome.camera.distance': 'Giơ tay cách camera khoảng một sải tay, để cả bàn tay nằm trong khung.', 'welcome.camera.private': 'Hình ảnh chỉ xử lý trong trình duyệt, không gửi đi đâu.', 'welcome.camera.one': 'Trình duyệt sẽ hỏi quyền dùng camera — hãy chọn Cho phép.',
+    'welcome.ways.title': 'Bạn muốn làm gì trước?', 'welcome.ways.text': 'Còn rất nhiều chức năng khác ở trang chủ.', 'welcome.ways.talk': 'Dịch ký hiệu', 'welcome.ways.learn': 'Học ký hiệu',
+  },
+  en: {
+    'home.hello': 'Hello, {name}', 'home.title': 'A bridge between sign language and speech', 'home.lead': 'Use your camera to turn hand signs into text and voice, show text as a 3D hand, hold two-way conversations and learn signs every day — all in your browser; your video never leaves your device.',
+    'home.ctaRecognize': 'Translate signs now', 'home.ctaConverse': 'Two-person chat', 'home.today': 'Today', 'home.due': '{n} to review', 'home.dueNone': 'Nothing to review',
+    'home.d.recognize': 'The camera reads signs, builds letters, words and sentences, and reads them aloud.', 'home.d.text': 'Type a sentence; the 3D hand signs it word by word or letter by letter; export video or GIF.', 'home.d.converse': 'Two people, one screen: one signs, the other types or speaks.', 'home.d.captions': 'Large, easy-to-read live captions for meetings and lectures.',
+    'home.d.learn': 'Path, spaced review, quizzes, games and badges.', 'home.d.dict': 'Look signs up with a 3D hand that rotates 360°.', 'home.d.train': 'Teach the app your own hand for better accuracy.',
+    'home.tipTitle': 'Tip', 'home.tip': 'Place the camera at chest height with good light and a plain background. The model reads the ASL fingerspelling alphabet; words and phrases are samples you record yourself in Sign → Text.', 'home.new': 'First time?',
+    'welcome.progress': 'Step {i} of {n}', 'welcome.finish': 'Get started',
+    'welcome.intro.title': 'Welcome to SignBridge', 'welcome.intro.text': 'The app helps deaf and hearing people communicate using a camera and a 3D hand. Everything runs on your device. Pick the interface language first.',
+    'welcome.look.title': 'Choose the look that suits you', 'welcome.look.text': 'You can change it any time with the button at the top or in Settings. High contrast uses thick outlines and strong colours.',
+    'welcome.camera.title': 'Get your camera ready', 'welcome.camera.light': 'Sit where it is bright, with light on your hands rather than behind you.', 'welcome.camera.distance': 'Hold your hand about an arm’s length from the camera, whole hand in frame.', 'welcome.camera.private': 'Video is processed in the browser only and never sent anywhere.', 'welcome.camera.one': 'The browser will ask for camera permission — choose Allow.',
+    'welcome.ways.title': 'What would you like to do first?', 'welcome.ways.text': 'There is much more on the home page.', 'welcome.ways.talk': 'Translate signs', 'welcome.ways.learn': 'Learn signs',
+  },
+};

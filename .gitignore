@@ -1,0 +1,11 @@
+node_modules
+dist
+public/mediapipe
+public/models/hand_landmarker.task
+*.log
+
+# dữ liệu landmark thật dùng để huấn luyện (không phân phối lại)
+data/real/
+
+# thư mục chứa bản cũ chờ xoá
+_to_delete/

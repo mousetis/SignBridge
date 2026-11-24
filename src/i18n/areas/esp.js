@@ -1,0 +1,26 @@
+export default {
+  vi: {
+    'esp.formAria': 'Kết nối ESP32-S3', 'esp.ip': 'Địa chỉ IP của mạch', 'esp.willConnect': 'Sẽ kết nối tới', 'esp.invalid': 'địa chỉ chưa hợp lệ',
+    'esp.connect': 'Kết nối', 'esp.disconnect': 'Ngắt kết nối', 'esp.connectedToast': 'Đã kết nối mạch ESP32-S3', 'esp.disconnectedToast': 'Đã ngắt kết nối',
+    'esp.badIp': 'Địa chỉ IP chưa hợp lệ', 'esp.discover': 'Dò mạch trong mạng', 'esp.discoverHint': 'Thử các tên thường gặp và quét cả dải 192.168.x.x (mất vài chục giây).',
+    'esp.scan': 'Dò thiết bị', 'esp.scanning': 'Đang dò', 'esp.noneFound': 'Chưa thấy mạch nào. Hãy kiểm tra mạch đã bật và cùng Wi-Fi với máy này.',
+    'esp.isBoard': 'Có dữ liệu cảm biến', 'esp.isWs': 'Máy chủ WebSocket', 'esp.saved': 'Thiết bị đã dùng', 'esp.port': 'Cổng', 'esp.path': 'Đường dẫn',
+    'esp.auto': 'Tự kết nối khi mở ứng dụng',
+    'esp.httpsNote': 'Lưu ý: trình duyệt chỉ cho kết nối ws:// khi trang chạy ở localhost hoặc http. Nếu mở trang bằng https, hãy dùng bản chạy cục bộ (npm run dev).',
+    'esp.joystick': 'Joystick', 'esp.pressure': 'Áp suất hơi thở', 'esp.puffThr': 'Ngưỡng thổi', 'esp.sipThr': 'Ngưỡng hút', 'esp.puff': 'thổi', 'esp.sip': 'hút',
+    'esp.lastEvent': 'Sự kiện gần nhất:',
+    'cursor.click': 'Nhấn', 'cursor.double': 'Nhấn đúp', 'cursor.right': 'Chuột phải', 'cursor.drag': 'Kéo', 'cursor.drop': 'Thả',
+  },
+  en: {
+    'esp.formAria': 'Connect ESP32-S3', 'esp.ip': 'Board IP address', 'esp.willConnect': 'Will connect to', 'esp.invalid': 'invalid address',
+    'esp.connect': 'Connect', 'esp.disconnect': 'Disconnect', 'esp.connectedToast': 'ESP32-S3 board connected', 'esp.disconnectedToast': 'Disconnected',
+    'esp.badIp': 'Invalid IP address', 'esp.discover': 'Find the board on the network', 'esp.discoverHint': 'Tries common host names and scans the 192.168.x.x range (takes a few dozen seconds).',
+    'esp.scan': 'Find devices', 'esp.scanning': 'Scanning', 'esp.noneFound': 'No board found. Check that it is on and on the same Wi-Fi as this device.',
+    'esp.isBoard': 'Sensor data', 'esp.isWs': 'WebSocket server', 'esp.saved': 'Used before', 'esp.port': 'Port', 'esp.path': 'Path',
+    'esp.auto': 'Connect automatically on start',
+    'esp.httpsNote': 'Note: browsers only allow ws:// from localhost or plain http pages. If the page is on https, run the local build (npm run dev).',
+    'esp.joystick': 'Joystick', 'esp.pressure': 'Breath pressure', 'esp.puffThr': 'Puff threshold', 'esp.sipThr': 'Sip threshold', 'esp.puff': 'puff', 'esp.sip': 'sip',
+    'esp.lastEvent': 'Last event:',
+    'cursor.click': 'Click', 'cursor.double': 'Double', 'cursor.right': 'Right', 'cursor.drag': 'Drag', 'cursor.drop': 'Drop',
+  },
+};

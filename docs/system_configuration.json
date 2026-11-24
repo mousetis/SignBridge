@@ -1,0 +1,105 @@
+{
+  "system_info": {
+    "project_name": "He sinh thai ho tro nguoi khuyet tat (ESP32-S3 & Web AI Ngon ngu ky hieu 2 chieu)",
+    "version": "1.0.0",
+    "processing_mode": "Edge_Client_Side_AI",
+    "supported_languages": ["vi-VN", "en-US"]
+  },
+  "esp32_ip_connection": {
+    "microcontroller": "ESP32-S3",
+    "protocol": "WebSocket_over_Local_WiFi",
+    "default_ip": "192.168.1.100",
+    "websocket_port": 81,
+    "http_config_port": 80,
+    "auto_reconnect_ms": 3000,
+    "telemetry_interval_ms": 20,
+    "hardware_sensors": {
+      "joystick_4_axis": {
+        "deadzone": 0.12,
+        "cursor_speed": 1.5,
+        "filter": "MovingAverage_5"
+      },
+      "pressure_sensor_MPXV7002DP": {
+        "measurement_range_kpa": [-2.0, 2.0],
+        "puff_left_click_kpa": 0.45,
+        "double_puff_window_ms": 350,
+        "sip_right_click_kpa": -0.45,
+        "hold_drag_duration_ms": 600
+      }
+    }
+  },
+  "ai_sign_to_text_engine": {
+    "camera_fps": 30,
+    "hand_tracking": {
+      "library": "MediaPipe_Hands",
+      "max_hands": 1,
+      "keypoints_count": 21,
+      "min_detection_confidence": 0.75,
+      "min_tracking_confidence": 0.70
+    },
+    "recognition_models": {
+      "total_characters": 36,
+      "static_pose_classifier": {
+        "architecture": "MLP_Neural_Network_TensorFlowJS",
+        "input_vector_size": 63,
+        "classes": [
+          "A", "B", "C", "D", "E", "F", "G", "H", "I", "K", "L", "M",
+          "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y",
+          "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
+        ],
+        "confidence_threshold": 0.85,
+        "hold_frames_to_confirm": 12
+      },
+      "dynamic_motion_classifier": {
+        "architecture": "LSTM_Sequence_Network_TensorFlowJS",
+        "sequence_frames": 20,
+        "classes": ["J", "Z"],
+        "confidence_threshold": 0.82
+      }
+    },
+    "output_assembly": {
+      "auto_space_pause_ms": 1800,
+      "smart_word_autocomplete": true,
+      "text_to_speech_enabled": true
+    }
+  },
+  "text_voice_to_3d_hand": {
+    "speech_to_text": {
+      "engine": "Web_Speech_API",
+      "continuous": true,
+      "auto_strip_diacritics": true
+    },
+    "hand_3d_renderer": {
+      "engine": "Three.js_WebGL",
+      "skeleton_joints": 21,
+      "transition_interpolation": "Quaternion_SLERP",
+      "playback_speeds": [0.5, 0.75, 1.0, 1.25, 1.5],
+      "default_speed": 1.0
+    },
+    "synchronized_subtitle_bar": {
+      "enabled": true,
+      "highlight_current_letter": true,
+      "show_2d_hand_chart_hint": true,
+      "font_size_px": 36
+    }
+  },
+  "deaf_mute_learning_module": {
+    "lessons": [
+      { "id": "L1", "title": "Bai 1: Chu cai co ban (A - I)", "characters": ["A", "B", "C", "D", "E", "F", "G", "H", "I"] },
+      { "id": "L2", "title": "Bai 2: Chu cai trung cap (J - R)", "characters": ["J", "K", "L", "M", "N", "O", "P", "Q", "R"] },
+      { "id": "L3", "title": "Bai 3: Chu cai nang cao (S - Z)", "characters": ["S", "T", "U", "V", "W", "X", "Y", "Z"] },
+      { "id": "L4", "title": "Bai 4: Chu so (0 - 9)", "characters": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] }
+    ],
+    "practice_feedback": {
+      "required_accuracy_percent": 85,
+      "hold_success_ms": 1000,
+      "visual_alert_only": true
+    }
+  },
+  "accessibility_ui": {
+    "theme": "High_Contrast_Dark_Slate",
+    "min_button_size_px": 64,
+    "zero_audio_dependency": true,
+    "hands_free_cursor_friendly": true
+  }
+}

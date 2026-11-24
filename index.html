@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="vi" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#F3F5FC" />
+    <meta name="description" content="SignBridge – cầu nối ngôn ngữ ký hiệu: nhận dạng ký hiệu, hiển thị tay 3D, học tập và điều khiển bằng ESP32-S3." />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+    <title>SignBridge – Cầu nối ngôn ngữ ký hiệu</title>
+    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg" />
+    <script>
+      // Áp giao diện đã lưu trước khi vẽ để không bị nháy sáng/tối.
+      try {
+        var g = JSON.parse(localStorage.getItem('signbridge.global.v2') || '{}');
+        var th = g.theme || 'system', d = document.documentElement;
+        if (th === 'system') th = matchMedia('(prefers-contrast: more)').matches ? 'hc' : matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        d.dataset.theme = th; d.dataset.fs = g.fs || 'm';
+        if (g.lang) d.lang = g.lang;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

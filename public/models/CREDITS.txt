@@ -1,0 +1,15 @@
+Mô hình bàn tay 3D / 3D hand models
+
+1) cartoon-hand.glb — "Cartoon Hand Rig [Blender]" (free version) by Andy Cuccaro
+   https://andycuccaro.gumroad.com/l/cartoon-hand-rig
+   License: CC-BY — credit: "Hand Rig by Andy Cuccaro".
+   Changes: converted from .blend to .glb (deform bones only, modifiers applied, rest pose).
+
+2) Do_Hand_DetailedRiggedAnimated_shared_16022026.glb — "3D Rigged Hand"
+   © 2026 Emma L. D. Lieker (ghi trong metadata của tệp / as stated in the file metadata).
+   Changes in the app: rest-pose bone chain is re-built at load time; a simple wrist cuff is added at runtime to cover the open wrist edge.
+
+3) rigged_wooden_puppet_hand.glb — "Rigged wooden puppet hand" by Updelta
+   https://sketchfab.com/3d-models/rigged-wooden-puppet-hand-461e0d118d634f46917c418b231ad763
+   License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/) — credit: "Rigged wooden puppet hand by Updelta".
+   Changes in the app: rest-pose bone chain re-built at load time; finger-guide colors are multiplied onto the original textures.

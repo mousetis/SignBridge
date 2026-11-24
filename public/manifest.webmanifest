@@ -1,0 +1,17 @@
+{
+  "name": "SignBridge – Cầu nối ngôn ngữ ký hiệu",
+  "short_name": "SignBridge",
+  "description": "Nhận dạng ký hiệu tay, bàn tay 3D, hội thoại hai chiều và học ký hiệu — chạy trong trình duyệt.",
+  "start_url": "/#/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F3F5FC",
+  "theme_color": "#3A3FCF",
+  "lang": "vi",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

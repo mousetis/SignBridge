@@ -1,0 +1,26 @@
+export default {
+  vi: {
+    'text.kicker': 'Chữ → Ký hiệu', 'text.title': 'Gõ hoặc nói, bàn tay sẽ ra dấu', 'text.lead': 'Từ đã ghi trong “Từ của tôi” được ra dấu bằng ký hiệu của bạn; phần còn lại được đánh vần từng chữ cái bằng bàn tay 3D.',
+    'text.subtitle': 'Phụ đề ký hiệu', 'text.empty': 'Nhập văn bản hoặc nói vào micro để bắt đầu…',
+    'text.ask': 'Bạn muốn nói gì?', 'text.askHint': '(hoặc bấm micro)', 'text.placeholder': 'Ví dụ: Xin chào 2024', 'text.willSign': 'Sẽ ra dấu:', 'text.noDiacritics': '(bỏ dấu tiếng Việt, chỉ A–Z và 0–9)',
+    'text.listening': 'Đang nghe…', 'text.say': 'Nói', 'text.stopSay': 'Dừng thu', 'text.kb': 'Bàn phím ảo', 'text.noStt': 'Trình duyệt không hỗ trợ nhận giọng nói. Hãy dùng Chrome/Edge hoặc bàn phím ảo.',
+    'text.phrases': 'Câu hay dùng', 'text.savePhrase': 'Lưu câu này', 'text.editPhrases': 'Sửa danh sách', 'text.phraseSaved': 'Đã lưu câu', 'text.phraseHint': 'Bấm câu để dùng. Ở chế độ sửa, bấm × để xoá.',
+    'text.speed': 'Tốc độ ra dấu', 'text.autoRotate': 'Xoay tự động', 'text.resetView': 'Góc nhìn gốc', 'text.prev': 'Ký tự trước', 'text.next': 'Ký tự sau',
+    'text.progress': 'Ký tự {i} / {n}', 'text.none': 'Chưa có nội dung', 'text.segProgress': 'Đoạn {i} / {n}', 'text.yourSign': 'Ký hiệu của bạn', 'text.word2d': 'Ký hiệu đã ghi: {w}',
+    'text.export': 'Xuất ra video / GIF', 'text.exportVideo': 'Video (.webm)', 'text.exportGif': 'Ảnh động (.gif)', 'text.exporting': 'Đang ghi hình…', 'text.exported': 'Đã xuất tệp', 'text.exportFail': 'Không xuất được: {e}', 'text.noVideo': 'Trình duyệt này không hỗ trợ ghi video — hãy dùng GIF.',
+    'text.exportHint': 'Ghi lại đúng phần đang ra dấu (tối đa 90 giây). Hãy để tab này mở trong lúc ghi.',
+    'text.recordedUsed': '{n} từ ra dấu bằng mẫu đã ghi', 'text.sp': 'Chữ cái',
+  },
+  en: {
+    'text.kicker': 'Text → Sign', 'text.title': 'Type or speak — the hand signs it', 'text.lead': 'Words you recorded in “My words” are shown with your own signs; everything else is fingerspelled letter by letter with the 3D hand.',
+    'text.subtitle': 'Sign subtitles', 'text.empty': 'Type some text or speak into the mic to begin…',
+    'text.ask': 'What do you want to say?', 'text.askHint': '(or press the mic)', 'text.placeholder': 'e.g. Hello 2024', 'text.willSign': 'Will sign:', 'text.noDiacritics': '(diacritics removed, only A–Z and 0–9)',
+    'text.listening': 'Listening…', 'text.say': 'Speak', 'text.stopSay': 'Stop', 'text.kb': 'On-screen keyboard', 'text.noStt': 'This browser has no speech recognition. Use Chrome/Edge or the on-screen keyboard.',
+    'text.phrases': 'Quick phrases', 'text.savePhrase': 'Save this phrase', 'text.editPhrases': 'Edit list', 'text.phraseSaved': 'Phrase saved', 'text.phraseHint': 'Tap a phrase to use it. In edit mode tap × to remove.',
+    'text.speed': 'Signing speed', 'text.autoRotate': 'Auto rotate', 'text.resetView': 'Reset view', 'text.prev': 'Previous character', 'text.next': 'Next character',
+    'text.progress': 'Character {i} / {n}', 'text.none': 'Nothing yet', 'text.segProgress': 'Part {i} / {n}', 'text.yourSign': 'Your sign', 'text.word2d': 'Recorded sign: {w}',
+    'text.export': 'Export as video / GIF', 'text.exportVideo': 'Video (.webm)', 'text.exportGif': 'Animated GIF (.gif)', 'text.exporting': 'Recording…', 'text.exported': 'File exported', 'text.exportFail': 'Export failed: {e}', 'text.noVideo': 'This browser cannot record video — use GIF.',
+    'text.exportHint': 'Records exactly what is being signed (up to 90 s). Keep this tab open while recording.',
+    'text.recordedUsed': '{n} words signed from your recordings', 'text.sp': 'Letters',
+  },
+};

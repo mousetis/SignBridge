@@ -1,0 +1,26 @@
+export default {
+  vi: {
+    'kb.title': 'Bàn phím ảo', 'kb.suggest': 'Gợi ý từ', 'kb.key': 'Phím', 'kb.space': 'Dấu cách', 'kb.back': 'Xoá lùi', 'kb.phrases': 'Câu nói nhanh',
+    'camera.opening': 'Đang mở camera và nạp mô hình nhận diện bàn tay…', 'camera.off': 'Camera đang tắt', 'camera.noHand': 'Đưa bàn tay vào khung hình',
+    'camera.fps': 'khung/giây', 'camera.localhost': 'Mở bằng localhost', 'camera.choose': 'Chọn camera', 'camera.default': 'Camera mặc định', 'camera.mirror': 'Lật gương',
+    'camera.err.denied': 'Camera bị chặn. Bấm biểu tượng ổ khóa cạnh thanh địa chỉ → Camera → Cho phép, rồi bấm Thử lại. (Windows: Cài đặt → Quyền riêng tư → Camera → bật cho ứng dụng trên máy tính.)',
+    'camera.err.none': 'Không tìm thấy camera trên máy này.',
+    'camera.err.busy': 'Camera đang được ứng dụng khác dùng (Zoom, Teams, tab khác…). Hãy tắt chúng rồi bấm Thử lại.',
+    'camera.err.ai': 'Camera đã mở nhưng chưa tải được mô hình AI: ',
+    'camera.err.file': 'Bạn đang mở tệp trực tiếp từ ổ đĩa. Hãy chạy ứng dụng bằng "chay.bat" (hoặc npm run dev) để dùng camera.',
+    'camera.err.insecure': 'Trình duyệt ẩn camera vì trang đang mở bằng địa chỉ {host}. Camera chỉ hoạt động ở http://localhost hoặc https.',
+    'camera.err.generic': 'Không mở được camera.',
+  },
+  en: {
+    'kb.title': 'On-screen keyboard', 'kb.suggest': 'Word suggestions', 'kb.key': 'Key', 'kb.space': 'Space', 'kb.back': 'Backspace', 'kb.phrases': 'Quick phrases',
+    'camera.opening': 'Opening the camera and loading the hand-tracking model…', 'camera.off': 'Camera is off', 'camera.noHand': 'Show your hand to the camera',
+    'camera.fps': 'fps', 'camera.localhost': 'Open with localhost', 'camera.choose': 'Choose camera', 'camera.default': 'Default camera', 'camera.mirror': 'Mirror view',
+    'camera.err.denied': 'Camera access is blocked. Click the lock icon next to the address bar → Camera → Allow, then press Try again. (Windows: Settings → Privacy → Camera → allow desktop apps.)',
+    'camera.err.none': 'No camera was found on this device.',
+    'camera.err.busy': 'The camera is being used by another app (Zoom, Teams, another tab…). Close it and press Try again.',
+    'camera.err.ai': 'The camera opened but the AI model could not load: ',
+    'camera.err.file': 'You opened the file directly from disk. Start the app with "chay.bat" (or npm run dev) to use the camera.',
+    'camera.err.insecure': 'The browser hides the camera because the page is opened at {host}. The camera only works on http://localhost or https.',
+    'camera.err.generic': 'Could not open the camera.',
+  },
+};

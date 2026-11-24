@@ -1,0 +1,9 @@
+1. clone project về
+2. mở terminal trong project rồi chạy lệnh -> npm install
+3. nếu lỗi mở powershell rồi chạy các lệnh dưới đây
+	cd "D:\Work\New folder\sign-bridge-v2" //Thay đường dẫn tuyệt đối từ máy vào 
+	attrib -R /S /D *
+	icacls . /reset /T /C
+	icacls . /grant "$($env:USERNAME):(OI)(CI)F" /T /C
+	npm install
+4. npm run dev -> start server
